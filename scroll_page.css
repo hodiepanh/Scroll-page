@@ -1,0 +1,54 @@
+*{
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: antiquewhite;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 10vh;
+}
+header li{
+    display: inline;
+    padding: 15px;
+    align-items: center;
+}
+.nav_and_content {
+    position: relative;
+    margin-top: 10vh;
+    height: 90vh;
+    display: flex;
+}
+.nav_and_content .nav_sidebar {
+    width: 20vw;
+    position: fixed;
+    display: block;
+}
+.nav_and_content .nav_sidebar li {
+    padding-top: 20px;
+}
+.nav_and_content .main_scroll{
+    width: 60vw;
+    margin-left: 20vw;
+    background-color: pink;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+section {
+    height: 100%;
+    padding: 20px;
+}
+.nav_and_content .chat {
+    width: 20vw;
+    margin-left: 80vw;
+    position: fixed ;
+    background-color: cadetblue;
+    height: 100%;
+    padding: 10px;
+}
+.nav_and_content .chat li {
+    padding-top: 20px;
+}
